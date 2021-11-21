@@ -1,0 +1,289 @@
+*{
+    font-family: 'Josefin Sans',
+    sans-serif;
+}
+
+body {
+    margin: 0 auto;
+    max-width: 100%;
+    overflow-x: hidden;
+    text-align: center;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(37, 101, 153);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+}
+
+nav li {
+    list-style: none;
+    display: inline;
+    padding: 15px;
+    justify-content: space-between;
+}
+
+nav ul a,
+.myname {
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 13pt;
+    color: rgb(35, 255, 15);
+}
+
+#navlist {
+    float: right;
+}
+
+#navlist a:hover {
+    color: rgb(225, 0, 255);
+}
+
+#welcome_text {
+    font-size: 36px;
+    color: rgb(0, 204, 255);
+}
+
+#home {
+    text-align: center;
+    background-image: url('./Images/IMG_20210525_001253.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 50px;
+}
+
+.fa {
+    padding: 25px;
+    padding-left:13px;
+    width: 40px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    background-color: rgb(255, 251, 0);
+    color: rgb(240, 0, 0);
+}
+
+.fa:hover {
+    color: turquoise;
+}
+
+#overlay {
+    padding-top: 120px;
+    padding-bottom: 80px;
+    position: relative;
+    top: 0;
+    bottom: 0;
+    background-color: rgba(36, 32, 32, 0.5);
+}
+
+
+.profilePhoto {
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+}
+
+.profilePhoto img {
+    border-radius: 50%;
+    width: 100%;
+    height: 100%;
+}
+
+.intro {
+    color: rgb(255, 255, 255);
+    width: 60%;
+    padding: 20px;
+    margin: auto;
+    margin-top: 40px;
+}
+
+.intro h1 {
+    font-size: 54pt;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: rgb(238, 255, 0);
+}
+
+#description {
+    font-size: 30px;
+    padding:20px;
+}
+
+#portfolio {
+    padding-bottom: 50px;
+    margin-bottom: 50px;
+    background-color: rgb(217, 202, 221);
+}
+
+#portfolio h1,h2{
+    text-align: center;
+}
+
+#portfolio h2 {
+    text-align: center;
+    font-size: 25px;
+}
+
+.projects {
+    font-size: 18px;
+    margin: auto;
+    width: 100%;
+    border: turquoise;
+}
+
+.project h3 {
+    font-size: 30px;
+    color: rgb(0, 17, 255);
+}
+
+.project {
+    box-shadow: 0px 0px 25px rgb(141, 100, 141);
+    border-radius: 2px;
+    text-align: left;
+    flex: 1;
+    padding: 15px;
+    padding-bottom: 35px;
+    margin: 5px;
+    position: relative;
+}
+
+#viewLink,
+#viewLink:hover,
+#viewLink:visited {
+    color: rgb(0, 0, 0);
+    border: 1px solid yellow;
+    padding: 8px;
+    text-decoration: none;
+    position: absolute;
+    padding-top: 10px;
+    font-weight: 600;
+    bottom: 8px;
+    border-radius: 5px;
+    background-color: rgb(43, 255, 0);
+}
+
+#about {
+    background-color: rgb(231, 247, 245);
+    margin-bottom: 50px;
+}
+
+#abt_indiv {
+    display: flex;
+    margin: 0 auto;
+    width: 80%;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding: 20px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.aboutHead {
+    text-align: center;
+}
+
+.aboutHead p {
+    font-style: italic;
+    font-size:22px;
+}
+
+.aboutContent {
+    font-size:20px;
+}
+
+#abt_indiv h1,
+#portfolio h1 {
+    font-size: 35pt;
+    font-weight: 700;
+    color: rgb(38, 0, 255);
+    padding-top: 10px;
+}
+
+.form {
+    text-align: center;
+    padding-top: 5px;
+    margin: auto;
+    font-weight: 700px;
+    font-size: 20pt;
+    color: darkcyan;
+}
+
+.form h1 {
+    color: coral;
+}
+
+form {
+    padding: 20px;
+    font-size: 14pt;
+}
+
+.alignIn {
+    display: flex;
+    justify-content: space-between;
+}
+
+label {
+    display: block;
+    text-align: left;
+    font-weight: 600;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#name,
+#email,
+#message,
+#btn {
+    width: 100%;
+    height: 55px;
+    box-sizing: border-box;
+    border: 1px solid rgb(187, 171, 165);
+    border-radius: 4px;
+    margin-top: 7px;
+}
+
+#message {
+    height: 150px;
+}
+
+#f1 {
+    flex: 1;
+    padding: 2px;
+    text-align: left;
+}
+
+::placeholder {
+    color: gray;
+}
+
+#btn {
+    width: 60%;
+    margin-right: 10px;
+    background-color: coral;
+    color: white;
+    border: none;
+    font-size: 12pt;
+}
+
+#buttons {
+    width: 50%;
+    text-align: left;
+}
+
+footer {
+    background-color: rgb(8, 73, 73);
+    box-sizing: border-box;
+    color: white;
+    padding: 20px;
+    overflow: hidden;
+    height: 5%;
+    width: 100%;
+    text-align: center;
+    font-size: 25px;
+}
